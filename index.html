@@ -1,276 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== LINE ICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
 
-Template 2082 Pure Mix
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
-http://www.tooplate.com/view/2082-pure-mix
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
 
--->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-
-	<!-- Site title
-   ================================================== -->
-	<title>Zhen's Portfolio</title>
-
-	<!-- Bootstrap CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-
-	<!-- Animate CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/animate.min.css">
-
-	<!-- Font Icons CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
-
-	<!-- Main CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Google web font 
-   ================================================== -->	
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="sticky-sidebar-min.css">
-	
+    <title>Zhen's Portfolio</title>
 </head>
 <body>
-
-
-<!-- Preloader section
-================================================== -->
-<div class="preloader">
-
-	<div class="sk-spinner sk-spinner-pulse"></div>
-
-</div>
-
-
-<!-- Navigation section
-================================================== -->
-<div class="nav-container">
-   <nav class="nav-inner transparent">
-
-      <div class="navbar">
-         <div class="container">
-            <div class="row">
-
-              <div class="brand">
-                 <a href="index.html">Zhen Xu</a>
-              </div>
-
-              <div class="navicon">
-                <div class="menu-container">
-
-                  <div class="circle dark inline">
-                    <i class="icon ion-navicon"></i>
-                  </div>
-
-                  <div class="list-menu">
-                    <i class="icon ion-close-round close-iframe"></i>
-                    <div class="intro-inner">
-                      <ul id="nav-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="https://drive.google.com/file/d/1JXm05BADJOl4eBi5XYcO1u0aSghOdfeJ/view?usp=sharing" target="_blank">Resume</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="#" class= "nav-logo">
+                <h2>Zhen Xu</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                </ul>
+                <!--nav close-->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
                 </div>
-              </div>
-
             </div>
-         </div>
-      </div>
-
-   </nav>
-</div>
-
-
-<!-- Header section
-================================================== -->
-<section id="header" class="header-one">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-          <div class="header-thumb">
-              <h1 class="wow fadeIn" data-wow-delay="1.6s">Hi I'm Zhen and I am a UX Designer</h1>
-              <h3 class="wow fadeInUp" data-wow-delay="1.9s">"Understand users is the key to create better design"</h3>
-          </div>
-			</div>
-
-		</div>
-	</div>		
-</section>
-
-
-<!-- Portfolio section
-================================================== -->
-<section id="portfolio">
-   <div class="container">
-      <div class="row">
-
-         <div class="col-md-12 col-sm-12">
-            
-               <!-- iso section -->
-               <div class="iso-section wow fadeInUp" data-wow-delay="2.6s">
-
-                  <ul class="filter-wrapper clearfix">
-                           <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".graphic">UX Projects</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".template">Market Researches</a></li>
-                           <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Passionate Topics</a></li>
-   <!--                     <li><a href="#" class="opc-main-bg" data-filter=".branding">Branding</a></li> -->
-                        </ul>
-
-                        <!-- iso box section -->
-                        <div class="iso-box-section wow fadeInUp" data-wow-delay="1s">
-                           <div class="iso-box-wrapper col4-iso-box">
-
-                              <div class="iso-box graphic col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/Discobop-header.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="discobop-project.html"><i class="fa fa-link"></i></a>
-                                                <h2>DISCOBOP PROJECT</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box graphic col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/instacart-logo.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="instacart-redesign.html"><i class="fa fa-link"></i></a>
-                                                <h2>Instacart Redesign</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box photoshop col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/unemployment.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="https://medium.com/@zhenxu.715/does-unemployment-rate-capture-the-holistic-view-of-how-a-country-is-performing-51d71bfca7d5" target="_blank"><i class="fa fa-link"></i></a>
-                                                <h2>Underlying Meaning of Unemployment Rate</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box graphic col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/youtube-redesign.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="youtube-redesign.html"><i class="fa fa-link"></i></a>
-                                                <h2>YouTube Redesign</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/iphone-market.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="iphone-market-research.html"><i class="fa fa-link"></i></a>
-                                                <h2>iPhone Market Research</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box template col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/customer-review.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="consumer-review.html"><i class="fa fa-link"></i></a>
-                                                <h2>Influence of Consumer Reviews on Purchase Decisions</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-
-                              <div class="iso-box photoshop col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/social-inequality.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="social-inequality.html"><i class="fa fa-link"></i></a>
-                                                <h2>Psychological Reasoning for the Supportive Stance of Social Inequality</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
-                              <div class="iso-box graphic col-md-4 col-sm-6">
-                                 <div class="portfolio-thumb">
-                                    <img src="images/booking.com.png" class="img-responsive" alt="Portfolio">
-                                       <div class="portfolio-overlay">
-                                          <div class="portfolio-item">
-                                                <a href="booking-redesign.html"><i class="fa fa-link"></i></a>
-                                                <h2>Booking.com Redesign</h2>
-                                             </div>
-                                       </div>
-                                 </div>
-                              </div>
+            <!-- nav button-->
+            <div class="nav-btns">
+                <!--theme change btn-->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!--toggle btn-->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main-content">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <!--intro-->
+                <div class="intro">
+                    <!-- avatar image-->
+                    <img src="assets/img/avatar1.svg" alt="zhen">
+                    <!--info-->
+                    <h1>Zhen Xu</h1>
+                    <span>I am a <span class="info-text">UX Designer</span></span>
+                    <!-- social icons-->
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="lni lni-linkedin-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-behance-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-medium"></i></a></li>
+                        <li><a href="#"><i class="lni lni-pinterest"></i></a></li>
+                    </ul>
+                    <!--button-->
+                    <div>
+                        <a href="#" class="btn btn-default">Chat with me</a>
+                    </div>
+                    <!--scroll down mouse wheel-->
+                    <div class="scroll-down">
+                        <a href="#about" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== About ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!--section title-->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <!--avatar img-->
+                    <div class="about-img padd-15">
+                        <img src="assets/img/avatar2.svg" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!--about text-->
+                                    <p>I'm Zhen Xu, a fast learner and a problem solver who is passoniate about delivering a user-friendly workspace, product, and service to the community.</p>
+                                    <div>
+                                        <a href="#" class="btn btn-default">Download Resume</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Prototype Design</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:95%; background: rgb(255, 209, 92);"></div>
+                                                <div class="skill-percent">95%</div>
+                                            </div>
+                                        </div>
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Data Analysis</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:85%; background: rgb(255, 76, 96);"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <!--skill item-->
+                                        <div class="skill-item">
+                                            <h4>Project Management</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width:95%; background: rgb(108, 108, 229);"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                            <div class="details">
+                                <h3>14</h3>
+                                <p>Projects done</p>
+                            </div>
+                    </div>
+                    <!--fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-rocket"></i>
+                            <div class="details">
+                                <h3>6</h3>
+                                <p>Successful Launches</p>
+                            </div>
+                    </div>
+                    <!--fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-bubble"></i>
+                            <div class="details">
+                                <h3>3</h3>
+                                <p>Languages</p>
+                            </div>
+                    </div>
+                    <!--fact item-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-cup"></i>
+                            <div class="details">
+                                <h3>2</h3>
+                                <p>Nominated winner</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Selected Projects ===============-->
+        <section class="project section" id="projects">
+            <div class="container">
+                <!--project title-->
+                <h2 class="section-title padd-15">Selected Projects</h2>
+                <div class="row">
+                    <!--service item-->
+                    <div class="project-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <span class="category">Web App</span>
+                                <a href="https://www.behance.net/gallery/122839235/Discobop-COVID-Web-App-Design" target="_blank"><img src="assets/img/Discobop-behance.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="https://www.behance.net/gallery/122839235/Discobop-COVID-Web-App-Design" target="_blank">Discobop COVID Web App</a></h3>
+                                <p class="meta">Designing a web app that help users to obtain a better shelter-in-place experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--service item-->
+                    <div class="project-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <span class="category">Website</span>
+                                <a href="https://www.behance.net/gallery/140042073/Super-Purposes-Website-Redesign" target="_blank"><img src="assets/img/SuperPurposes-behance.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="https://www.behance.net/gallery/140042073/Super-Purposes-Website-Redesign" target="_blank">Super Purposes Website</a></h3>
+                                <p class="meta">Redesigning website to increase company's brand reputation and optimize SEO effect</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--service item-->
+                    <div class="project-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <span class="category">Mobile</span>
+                                <a href="https://www.behance.net/gallery/140207721/smallgoods-Mobile-App-and-Web-Design" target="_blank"><img src="assets/img/smallgoods-behance.svg" alt=""></a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="https://www.behance.net/gallery/140207721/smallgoods-Mobile-App-and-Web-Design" target="_blank">smallgoods Mobile & Web</a></h3>
+                                <p class="meta">Helping the local cheese shop to revamp their existing website and create a mobile version</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Experience ===============-->
+        <section class="section" id="experience">
+            <div class="container">
+                <!--section title-->
+                <h2 class="section-title padd-15">Experience</h2>
+                <div class="row">
+                    <!--education-->
+                    <div class="education padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!--timeline item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2017 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">Magna cum laude</h3>
+                                        <p class="timeline-text">Graduated with double degrees from University of California, San Diego</p>
+                                    </div>
+                                    <!--timeline item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2017 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">Bachelor of Science Degree</h3>
+                                        <p class="timeline-text">Cognitive Science - Design and Interaction</p>
+                                        <p class="timeline-text">Discover sample project <a href="https://medium.com/@zhenxu.715/does-unemployment-rate-capture-the-holistic-view-of-how-a-country-is-performing-51d71bfca7d5" class="embed-link" target="_blank">here</a></p>
+                                    </div>
+                                    <!--timeline item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2017 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">Bachelor of Art Degree</h3>
+                                        <p class="timeline-text">International Studies - Business</p>
+                                        <p class="timeline-text">Discover sample project <a href="https://docs.google.com/document/d/1s5K_Fxe6LZwDobW7VECZWg7C0S82DLKt/edit?usp=sharing&ouid=103276022122804491218&rtpof=true&sd=true" class="embed-link" target="_blank">here</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--experience-->
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!--timeline item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-tiktok timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2021 - present
+                                        </h3>
+                                        <h3 class="timeline-title">User Operation Experience Designer</h3>
+                                        <p class="timeline-text">Designed internal knowledge base to document business flow, ensuring efficient product support</p>
+                                    </div>
+                                    <!--timeline item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">User Experience Designer</h3>
+                                        <p class="timeline-text">Created interactive hi-fi prototype to communicate site architecture and design layouts to developers</p>
+                                    </div>
+                                    <!--timeline item-->
+                                    <div class="timeline-item">
+                                        <i class="lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class="lni lni-calendar"></i> 2020 - 2021
+                                        </h3>
+                                        <h3 class="timeline-title">User Experience Researcher</h3>
+                                        <p class="timeline-text">Presented solutions to web developers to finalize web redesign after a series of user testing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--=============== Pricing ===============-->
+        
+        <!--=============== Portfolio ===============-->
+        
+        <!--=============== Testimonial ===============-->
+        
+        <!--=============== Blog ===============-->
+        
+        <!--=============== Contact ===============-->
+        
+        <!--=============== Footer ===============-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; Cryptical Coder Template</p>
+                </div>
+            </div>
+        </footer>
+        
+    </main>
+    <!--=============== Theme Customize ===============-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p>Manage your font size, color, and background</p>
+            <!--font size-->
+            <div class="font-size">
+                <h3>Font Size</h3>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!--color -->
+            <div class="color">
+                <h3>Color</h3>
+                <div class="choose-color">
+                    <span class="color-1"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3 active"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- background -->
+            <div class="background">
+                <h3>Background</h3>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Dark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-               </div>
-
-         </div>
-
-      </div>
-   </div>
-</section>
-
-<!-- Footer section
-================================================== -->
-<footer>
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-12 col-sm-12">
-				<p class="wow fadeInUp" style="color: #929292" data-wow-delay="0.3s"><strong>Let's Connect!</strong></p>
-				<ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
-					<li><a href="https://www.linkedin.com/in/zhenxu0909/" target="_blank" class="fa fa-linkedin"></a></li>
-					<li><a href="https://www.pinterest.com/zhenxu715/boards/" target="_blank" class="fa fa-pinterest"></a></li>
-					<li><a href="https://medium.com/@zhenxu.715" target="_blank" class="fa fa-medium"></a></li>
-				</ul>
-          
-			</div>
-			
-		</div>
-	</div>
-</footer>
-
-
-<!-- Javascript 
-================================================== -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-<script type="text/javascript" src="stick-sidebar-min.js"></script>
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
